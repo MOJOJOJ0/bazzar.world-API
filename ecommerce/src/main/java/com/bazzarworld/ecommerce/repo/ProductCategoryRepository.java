@@ -1,6 +1,6 @@
-package com.bazzarworld.ecommerce.dao;
+package com.bazzarworld.ecommerce.repo;
 
-import com.bazzarworld.ecommerce.entity.ProductCategory;
+import com.bazzarworld.ecommerce.model.ProductCategory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 

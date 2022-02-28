@@ -1,4 +1,4 @@
-package com.bazzarworld.ecommerce.entity;
+package com.bazzarworld.ecommerce.model;
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
