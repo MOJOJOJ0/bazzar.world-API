@@ -15,8 +15,8 @@ public class Data implements RepositoryRestConfigurer {
         RepositoryRestConfigurer.super.configureRepositoryRestConfiguration(config, cors);
 
         HttpMethod[] theUnsupportedActions = {HttpMethod.PUT, HttpMethod.POST, HttpMethod.DELETE};
-//
-//        //! read-only config
+
+        //! read-only config
 //        config.getExposureConfiguration()
 //                .forDomainType(Product.class)
 //                .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions)
@@ -26,5 +26,8 @@ public class Data implements RepositoryRestConfigurer {
 //                .forDomainType(ProductCategory.class)
 //                .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions)
 //                .withCollectionExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
+        
+
+
     }
 }
