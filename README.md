@@ -13,7 +13,7 @@ This repo contains the backend of a full stack app. The idea is just a simple ma
 
 - [x] ~As a user, I can see unique products and their prices~
 
-- [ ] As a user, I can interact with payment methods (including crypto)
+- [ ] As a user, I can interact with payment methods (including climate-friendly crypto)
 
 - [ ] As a user, I can see the checkout option
 
